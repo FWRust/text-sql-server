@@ -1,0 +1,164 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Roboto', sans-serif;
+}
+
+body
+{
+    height: 100vh;
+    background-color: rgb(26, 26, 26);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper
+{
+    width: 100%;
+    height: 100vh;
+}
+
+.form
+{
+    width: 100%;
+    height: 100vh;
+    border-radius: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-element
+{
+    width: 500px;
+    height: 500px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 20px;
+
+    background-color: #292929;
+}
+
+form
+{
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+input
+{
+    height: 30px;
+    margin: 10px 10px 0 0;
+    padding: 0 5px 0 5px;
+
+    background-color: #3b3b3b;
+    color: rgb(143, 143, 143); 
+    border: none;
+
+    border-radius: 10px;
+    border: 1px solid rgb(80, 80, 80);
+}
+
+.func {
+    display: flex;
+    align-items: center;
+}
+
+.input
+{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 20px 0 0 0;
+}
+
+textarea
+{
+    resize: none;
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+    background-color: #3b3b3b;
+    border: none;
+    color: rgb(143, 143, 143);
+    padding: 5px 5px 5px 5px;
+    border: 1px solid rgb(80, 80, 80);
+}
+
+.header
+{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    position: fixed;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header h1
+{
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+button
+{
+    height: calc(100% - 30px);
+    width: 100px;
+    background-color: #1d1d1d;
+    border: 1px solid rgb(80, 80, 80);
+    border-radius: 10px;
+    color: rgb(143, 143, 143);
+    align-self: flex-end;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.buttons button {
+    height: 30px;
+}
+
+.container {
+    display: flex;
+    position: relative;
+}
+
+.text-top {
+    color: white;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+.sequel {
+    font-family: 'Funnel Display', cursive;
+    margin-bottom: 10px;
+}
+
+.text-sql {
+    font-family : 'Source Code Pro', monospace;
+    opacity: .8;
+}
